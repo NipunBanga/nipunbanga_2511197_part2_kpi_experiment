@@ -6,7 +6,7 @@ A/B Experiment Analysis | KPI Framework | Executive Decision Recommendation
 
 
 
-# 1. Repository Information
+1. Repository Information
 
 
 
@@ -26,73 +26,73 @@ A/B Experiment Analysis | KPI Framework | Executive Decision Recommendation
 
 
 
-# 2\. Table of Contents
+# 2. Table of Contents
 
 
 
-1\. Repository Information
+1. Repository Information
 
-2\. Table of Contents
+2. Table of Contents
 
-3\. Executive Summary
+3. Executive Summary
 
-4\. Business Value
+4. Business Value
 
-5\. Project Highlights
+5. Project Highlights
 
-6\. Business Context
+6. Business Context
 
-7\. Business Problem Statement
+7. Business Problem Statement
 
-8\. Business Objectives
+8. Business Objectives
 
-9\. Success Criteria
+9. Success Criteria
 
-10\. Stakeholder Analysis
+10. Stakeholder Analysis
 
-11\. Project Scope
+11. Project Scope
 
-12\. Out of Scope
+12. Out of Scope
 
-13\. Dataset Overview
+13. Dataset Overview
 
-14\. Data Validation Methodology
+14. Data Validation Methodology
 
-15\. North Star Metric
+15. North Star Metric
 
-16\. Guardrail Metrics
+16. Guardrail Metrics
 
-17\. KPI Tree Explanation
+17. KPI Tree Explanation
 
-18\. Experiment Design
+18. Experiment Design
 
 19\. Statistical Methodology
 
-20\. Segment Analysis
+20. Segment Analysis
 
-21\. Business Risks
+21. Business Risks
 
-22\. Recommendation Framework
+22. Recommendation Framework
 
-23\. Repository Structure
+23. Repository Structure
 
-24\. Project Deliverables
+24. Project Deliverables
 
-25\. Assumptions
+25. Assumptions
 
-26\. Limitations
+26. Limitations
 
-27\. Future Enhancements
+27. Future Enhancements
 
-28\. References
+28. References
 
-29\. Executive Conclusion
+29. Executive Conclusion
 
-30\. Repository Status
+30. Repository Status
 
 
 
-# 3\. Executive Summary
+# 3. Executive Summary
 
 
 
@@ -102,36 +102,36 @@ The primary objective is to determine whether the redesigned onboarding experien
 
 
 
-# 4\. Business Value
+# 4. Business Value
 
 This analysis enables business leaders to make evidence-based rollout decisions by combining statistical significance, KPI performance, and customer experience metrics into a single decision framework.
 
 
 
-# 5\. Project Highlights
+# 5. Project Highlights
 
 This project delivers a complete business experimentation framework for evaluating a subscription-based onboarding campaign. The repository includes:
 
 
 
-\- 📊 KPI Framework aligned with business objectives
+- 📊 KPI Framework aligned with business objectives
 
-\- ⭐ North Star Metric selection and justification
+- ⭐ North Star Metric selection and justification
 
-\- 🌳 Executive KPI Tree with business drivers and guardrail metrics
+- 🌳 Executive KPI Tree with business drivers and guardrail metrics
 
-\- 🧪 End-to-end A/B Experiment Analysis
+- 🧪 End-to-end A/B Experiment Analysis
 
-\- 📈 Statistical Hypothesis Testing using a Two-Proportion Z-Test
+- 📈 Statistical Hypothesis Testing using a Two-Proportion Z-Test
 
-\- 🌍 Segment-Level Performance Analysis
+- 🌍 Segment-Level Performance Analysis
 
 * 🛡️ Guardrail Metric Evaluation
 * 📑 Executive Recommendation supported by data
 
-## 
 
-# 6\. Business Context
+
+# 6. Business Context
 
 For subscription-based digital products, sustainable growth depends on efficiently converting new users into long-term paying customers. The onboarding experience is a critical stage in this journey because it directly influences activation, engagement, conversion, and early customer satisfaction.
 
