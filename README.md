@@ -144,7 +144,7 @@ To improve user activation, the company introduced a redesigned onboarding campa
 
 
 
-# 7\. Business Problem Statement
+# 7. Business Problem Statement
 
 The organization must determine whether the redesigned onboarding experience delivers sufficient business value to justify a full production rollout.
 
@@ -156,49 +156,49 @@ The decision impacts Product Management, Marketing, Customer Success, Engineerin
 
 The recommendation must therefore be supported by statistically significant results, positive business KPIs, stable guardrail metrics, and consistent performance across customer segments.
 
-## 
 
-# 8\. Business Objectives
+
+# 8. Business Objectives
 
 The analysis is designed to achieve the following objectives:
 
 
 
-1\. Evaluate whether the redesigned onboarding experience improves Paid Conversion Rate.
+1. Evaluate whether the redesigned onboarding experience improves Paid Conversion Rate.
 
-2\. Measure improvements in user activation through Trial Start Rate and Onboarding Completion Rate.
+2. Measure improvements in user activation through Trial Start Rate and Onboarding Completion Rate.
 
-3\. Assess the commercial impact using Average Revenue Per User (ARPU) and Average Revenue Per Paying User (ARPPU).
+3. Assess the commercial impact using Average Revenue Per User (ARPU) and Average Revenue Per Paying User (ARPPU).
 
-4\. Monitor customer experience using Engagement Score, Refund Rate, and Support Ticket Rate.
+4. Monitor customer experience using Engagement Score, Refund Rate, and Support Ticket Rate.
 
-5\. Validate business improvements using statistical hypothesis testing.
+5. Validate business improvements using statistical hypothesis testing.
 
-6\. Identify high-performing customer segments for potential phased rollout.
+6. Identify high-performing customer segments for potential phased rollout.
 
-7\. Deliver an evidence-based executive recommendation supported by measurable business outcomes.
+7. Deliver an evidence-based executive recommendation supported by measurable business outcomes.
 
 
 
-# 9\. Success Criteria
+# 9. Success Criteria
 
 The experiment will be considered successful if:
 
 
 
-\- Paid Conversion Rate improves significantly.
+- Paid Conversion Rate improves significantly.
 
-\- Guardrail metrics remain stable.
+- Guardrail metrics remain stable.
 
-\- Customer engagement increases.
+- Customer engagement increases.
 
-\- Revenue quality is maintained.
+- Revenue quality is maintained.
 
-\- Statistical significance is achieved.
+- Statistical significance is achieved.
 
 
 
-# 10\. Stakeholder Analysis
+# 10. Stakeholder Analysis
 
 | Stakeholder | Primary Interest |
 
@@ -222,7 +222,7 @@ The experiment will be considered successful if:
 
 
 
-# 11\. Project Scope
+# 11. Project Scope
 
 This project includes:
 
@@ -237,23 +237,23 @@ This project includes:
 
 
 
-## 12\. Out of Scope
+## 12. Out of Scope
 
 This project does not include:
 
-\- Long-term churn prediction
+- Long-term churn prediction
 
-\- Customer Lifetime Value modelling
+- Customer Lifetime Value modelling
 
-\- Marketing attribution analysis
+- Marketing attribution analysis
 
-\- Pricing optimization
+- Pricing optimization
 
-\- Cross-product behavioral analysis
+- Cross-product behavioral analysis
 
 
 
-## 13\. Dataset Overview
+## 13. Dataset Overview
 
 The dataset contains anonymized user-level observations collected during a controlled A/B experiment conducted on a subscription-based digital product.
 
@@ -283,7 +283,7 @@ Each record represents a unique user assigned to either the Control Group or the
 
 
 
-## 14\. Data Validation Methodology
+## 14. Data Validation Methodology
 
 Before analysis, the dataset is validated using the following quality checks:
 
@@ -298,7 +298,7 @@ These checks ensure that downstream KPI calculations and statistical tests are b
 
 
 
-## 15\. North Star Metric
+## 15. North Star Metric
 
 ## Paid Conversion Rate
 
@@ -340,7 +340,7 @@ The following KPIs help explain changes in the North Star Metric:
 
 
 
-# 16\. Guardrail Metrics
+# 16. Guardrail Metrics
 
 To avoid optimizing for conversion at the expense of customer experience, the following guardrail metrics are monitored:
 
@@ -357,7 +357,7 @@ A rollout recommendation will only be made if the North Star Metric improves whi
 
 
 
-# 17\. KPI Tree Explanation
+# 17. KPI Tree Explanation
 
 The KPI Tree links the organization's strategic objective of increasing sustainable subscription revenue to measurable operational drivers.
 
@@ -408,7 +408,7 @@ Increase sustainable subscription revenue through improved customer activation a
 
 
 
-# 18\. Experiment Design
+# 18. Experiment Design
 
 
 
@@ -426,7 +426,7 @@ The company conducted a randomized A/B experiment.
 
 
 
-# 19\. Statistical Methodology
+# 19. Statistical Methodology
 
 The primary business metric (Paid Conversion Rate) is evaluated using a **Two-Proportion Z-Test** because the outcome is binary (converted vs. not converted) and the experiment compares two independent groups.
 
@@ -438,7 +438,7 @@ A rollout recommendation should only be considered if the observed improvement i
 
 
 
-## 20\. Segment Analysis
+## 20. Segment Analysis
 
 Performance is evaluated across multiple business dimensions:
 
@@ -451,23 +451,23 @@ Segment-level analysis identifies whether the Treatment performs consistently ac
 
 
 
-# 21\. Business Risks
+# 21. Business Risks
 
 While higher conversion is desirable, business decisions should not rely solely on revenue improvement. The following risks must be evaluated before recommending a production rollout:
 
 
 
-\- Increased customer refund requests
+- Increased customer refund requests
 
-\- Higher support ticket volume
+- Higher support ticket volume
 
-\- Reduced customer engagement
+- Reduced customer engagement
 
-\- Segment-specific performance decline
+- Segment-specific performance decline
 
-\- Revenue quality deterioration
+- Revenue quality deterioration
 
-\- Statistical uncertainty due to sampling variation
+- Statistical uncertainty due to sampling variation
 
 
 
@@ -475,7 +475,7 @@ Evaluating these risks ensures that short-term conversion improvements do not cr
 
 
 
-# 22\. Recommendation Framework
+# 22. Recommendation Framework
 
 The rollout decision follows this framework:
 
@@ -495,47 +495,31 @@ The rollout decision follows this framework:
 
 
 
-## 23\. Business Context Assumptions Repository Structure
+## 23. Business Context Assumptions Repository Structure
 
 
 
 ```text
-
-part2\_kpi\_experiment/
-
+part2_kpi_experiment/
 ├── data/
-
-│   └── campaign\_experiment\_data.xlsx
-
+│   └── campaign_experiment_data.xlsx
 ├── analysis/
-
-│   ├── experiment\_analysis.xlsx
-
-│   └── hypothesis\_test\_notes.md
-
+│   ├── experiment_analysis.xlsx
+│   └── hypothesis_test_notes.md
 ├── outputs/
-
-│   ├── experiment\_summary.xlsx
-
-│   ├── recommendation\_memo.md
-
-│   └── kpi\_tree.png
-
+│   ├── experiment_summary.xlsx
+│   ├── recommendation_memo.md
+│   └── kpi_tree.png
 ├── screenshots/
-
-│   ├── summary\_metrics.png
-
-│   ├── hypothesis\_test\_output.png
-
-│   └── kpi\_tree\_preview.png
-
+│   ├── summary_metrics.png
+│   ├── hypothesis_test_output.png
+│   └── kpi_tree_preview.png
 └── README.md
-
 ```
 
 
 
-## 24\. Project Deliverables
+## 24. Project Deliverables
 
 This repository includes:
 
@@ -557,7 +541,7 @@ This repository includes:
 
 
 
-# 25\. Assumptions
+# 25. Assumptions
 
 * Users were randomly assigned to Control and Treatment groups.
 * Experimental data accurately represents user behavior.
@@ -567,7 +551,7 @@ This repository includes:
 
 
 
-## 26\. Limitations
+## 26. Limitations
 
 * Analysis is limited to the experimental period.
 * Long-term retention and churn are outside the scope.
@@ -578,7 +562,7 @@ KPI monitoring.
 
 
 
-## 27\. Future Enhancements
+## 27. Future Enhancements
 
 Potential follow-up analyses include:
 
@@ -592,13 +576,13 @@ Potential follow-up analyses include:
 
 
 
-# 28\. References
+# 28. References
 
 The analysis methodology is based on established A/B testing, KPI framework, and business analytics practices. All findings are derived from the provided experiment dataset and documented calculations within this repository.
 
 
 
-# 29\. Executive Conclusion
+# 29. Executive Conclusion
 
 This project demonstrates how KPI frameworks, business experimentation, and statistical analysis can be integrated into executive decision-making. Rather than relying solely on conversion improvement, the recommendation considers commercial impact, customer experience, operational guardrails, and statistical evidence to ensure sustainable business growth.
 
@@ -608,7 +592,7 @@ The framework developed in this repository provides leadership with a structured
 
 
 
-# 30\. Repository Status
+# 30. Repository Status
 
 
 
