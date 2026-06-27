@@ -66,7 +66,7 @@ A/B Experiment Analysis | KPI Framework | Executive Decision Recommendation
 
 18. Experiment Design
 
-19\. Statistical Methodology
+19. Statistical Methodology
 
 20. Segment Analysis
 
